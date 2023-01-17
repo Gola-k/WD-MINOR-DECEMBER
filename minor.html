@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historical Places Of India</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+        }
+
+        #header {
+            background: linear-gradient(to right, #4286f4, #373B44);
+            opacity: 0.5;
+            padding: 1px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 6px black;
+            border: 1px solid #ddd;
+            text-align: center;
+            margin: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
+
+        #header i {
+            font-size: 50px;
+            animation: iconAnimation 2s ease-in-out infinite alternate;
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+
+        #header h1 {
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-shadow: 2px 1px red;
+            color: black;
+            animation: headerAnimation 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes headerAnimation {
+            0% {
+                transform: translateY(0%);
+            }
+
+            25% {
+                transform: translateY(5%);
+            }
+
+            50% {
+                transform: translateY(10%);
+            }
+
+            75% {
+                transform: translateY(5%);
+            }
+
+            100% {
+                transform: translateY(0%);
+            }
+        }
+
+        #container {
+            margin-top: 100px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+
+        #container>div {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #708ddd;
+            backdrop-filter: blur(90%);
+            text-align: center;
+            box-shadow: 5px 5px 3px black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #container img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            box-shadow: 0 0 5px 5px rgb(9, 45, 104);
+            border-radius: 8px;
+
+        }
+
+        #audio p {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: grey;
+            animation: containerAnimation 2s ease-in-out infinite alternate;
+        }
+
+        #footer {
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <i class="bi bi-yin-yang"></i>
+        <h1></i>Historical Places Of India</h1>
+    </div>
+    <br>
+    <div id="container">
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal"><img
+                    src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80.jpg"
+                    alt="Taj Mahal"></a>
+            <p>Taj Mahal is a white marble mausoleum located on the south bank of the Yamuna River in the Indian city of
+                Agra.</p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Red_Fort"><img
+                    src="https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+                    alt="Red Fort"></a>
+            <p>Red Fort is a historical fort in the city of Delhi in India, built during the Mughal Empire in the 17th
+                century.</p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Harmandir_Sahib"><img
+                    src="https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80.jpg"
+                    alt="Harmandir Sahib"></a>
+            <p>Harmandir Sahib, also known as the Golden Temple, is a Gurdwara located in the city of Amritsar, Punjab,
+                India.</p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Qutub_Minar"><img
+                    src="https://images.pexels.com/photos/13385089/pexels-photo-13385089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"
+                    alt="Qutub Minar"></a>
+            <p>Qutub Minar is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the
+                Mehrauli area of Delhi, India.</p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Ajanta_Caves"><img
+                    src="https://images.unsplash.com/photo-1583316484710-c0f76f4e13a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=818&q=80.jpg"
+                    alt="Ajanta Caves"></a>
+            <p>The Ajanta Caves are caves in Maharashtra, India, dating from the 2nd century BCE to about 480 or 650 CE.
+            </p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Ellora_Caves"><img
+                    src="https://images.unsplash.com/photo-1631774933370-d596a344e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+                    alt="Ellora Caves"></a>
+            <p>The Ellora Caves are located in the Aurangabad district of Maharashtra, India. They are one of the
+                largest rock-cut monastery-temple cave complexes in the world.</p>
+        </div>
+    </div>
+    <br>
+    <div id="audio" align="center">
+        <iframe width="400" height="120" scrolling="no" frameborder="no" allow="autoplay"
+            style="opacity: 0.8;box-shadow: 10px 10px 5px black;"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1059676555&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <p><u>Click on the images to know more about the places.</u></p>
+    </div>
+    <div id="footer">
+        <p><b><i>Designed and Developed By Kunal Gola</i></b></p>
+    </div>
+</body>
+
+</html>
